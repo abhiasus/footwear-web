@@ -4,15 +4,15 @@ import { HashRouter } from "react-router-dom";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import "aos/dist/aos.css";
 
 import AOS from "aos";
-import "aos/dist/aos.css";
 
 import App from "./App";
 import "./assets/style/style.css";
 
 AOS.init({
-  duration: 900,
+  duration: 800,
   once: true,
 });
 
